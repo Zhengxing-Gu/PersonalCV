@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a portfolio website built with Next.js and Tailwind CSS. 
+This is a portfolio website built with Next.js and Tailwind CSS.
 
 ## Installation
 
@@ -27,3 +27,5 @@ The following dependencies are required for this project:
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
 
+## Template
+use the template from https://github.com/judygab
