@@ -17,7 +17,7 @@ const EmailSection = () => {
     };
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
-
+    console.log(data)
     // Form the request for sending data to the server.
     const options = {
       // The method is POST because we are sending data.
@@ -31,7 +31,7 @@ const EmailSection = () => {
     };
 
     const response = await fetch(endpoint, options);
-    console.log(response)
+    // console.log(response)
     const resData = await response.json();
 
     if (response.status === 200) {
@@ -115,6 +115,7 @@ const EmailSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                required
                 placeholder="Let's talk about..."
               />
             </div>

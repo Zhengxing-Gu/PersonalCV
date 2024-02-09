@@ -6,7 +6,7 @@ const fromEmail = 'onboarding@resend.dev';
 
 export async function POST(req, res) {
   const { email, subject, message } = await req.json();
-  console.log(email, subject, message);
+  // console.log(email, subject, message);
   try {
     const data = await resend.emails.send({
       from: fromEmail,
@@ -14,8 +14,9 @@ export async function POST(req, res) {
       subject: subject,
       react: (
         <>
-          <h1>{subject}</h1>
-          <p>{message}</p>
+          <p>senders: {email}</p>
+          <h1>subject: {subject}</h1>
+          <p>message: {message}</p>
         </>
       ),
     });
