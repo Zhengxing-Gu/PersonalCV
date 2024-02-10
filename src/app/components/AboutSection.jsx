@@ -46,6 +46,15 @@ const TAB_DATA = [
       </ul>
     ),
   },
+  {
+    title: "Certificate",
+    id: "certificate",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>AWS Certified Cloud Practitioner</li>
+      </ul>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -84,12 +93,19 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            <TabButton
+            {/* <TabButton
               selectTab={() => handleTabChange("language")}
               active={tab === "language"}
             >
               {" "}
               Language{" "}
+            </TabButton> */}
+            <TabButton
+              selectTab={() => handleTabChange("certificate")}
+              active={tab === "certificate"}
+            >
+              {" "}
+              Certificate{" "}
             </TabButton>
           </div>
           <div style={{height: "180px"}} className="mt-8">
