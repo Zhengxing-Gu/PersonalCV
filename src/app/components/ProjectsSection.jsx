@@ -29,8 +29,8 @@ const projectsData = [
     description: "Built different models to solve an animal detecting and classification problem on a Kaggle dataset.",
     image: "/images/projects/penguins_vs_turtles.png",
     tag: ["All", "ML"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://colab.research.google.com/drive/1jZGNLW-peF0U89dE3CC0lXfrpcP3bVrd?usp=sharing",
+    previewUrl: "https://colab.research.google.com/drive/1jZGNLW-peF0U89dE3CC0lXfrpcP3bVrd?usp=sharing",
   },
 ];
 
