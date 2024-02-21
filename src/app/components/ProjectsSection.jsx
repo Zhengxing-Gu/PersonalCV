@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Use Next.js, React, Tailwindcss to develop a responsive portfolio website.",
+    description: "My personal website built with Next.js, React, Tailwindcss.",
     image: "/images/projects/personal_website.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Zhengxing-Gu/PersonalCV",
@@ -16,6 +16,15 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Nike Landing Page",
+    description: "A nike landing page, built with Javascript and Tailwindcss. ",
+    image: "/images/projects/nike_landing_page.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Zhengxing-Gu/nike_landing_page",
+    previewUrl: "https://nike-landing-page-five-gamma.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Twitter Sentiment Analysis",
     description: "Compared different machine learning algorithms for Twitter Sentiment Analysis on a Kaggle dataset. Bi-LSTM with Attention mechanism achieves 97.5% accuracy.",
     image: "/images/projects/sentiment_analysis.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "https://colab.research.google.com/drive/1Qb1S8UkVyYOr6TQI0vLl0eJFGs-0u7-5",
   },
   {
-    id: 3,
+    id: 4,
     title: "Penguins vs Turtles classification",
     description: "Built different models to solve an animal detecting and classification problem on a Kaggle dataset.",
     image: "/images/projects/penguins_vs_turtles.png",
