@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+    <section className="py-4 lg:py-16 lg:h-[430px]">
+      <div className="flex px-2 justify-center items-center md:justify-start md:px-4 lg:px-14">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }} // initial state; opacity:0 means transparent
           animate={{ opacity: 1, scale: 1 }} // animate state
@@ -32,7 +32,9 @@ const HeroSection = () => {
             <Link
               href="resume_en.pdf"
               target="_blank"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              className="px-1 inline-block py-1 w-[160px] rounded-full 
+                bg-gradient-to-br from-primary-500 to-secondary-500
+               hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 <button>Download CV</button>
