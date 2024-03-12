@@ -10,6 +10,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>JavaScript</li>
+        <li>TypeScript</li>
         <li>React</li>
         <li>PostgreSQL</li>
         <li>Python</li>
@@ -24,10 +25,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>
           <p> University of New South Wales </p>
-          <p className="text-[13px]">
-            {" "}
-            Master of Information Technology{" "}
-          </p>
+          <p className="text-[13px]"> Master of Information Technology </p>
           <p className="text-[13px]"> September 2021 - December 2023 </p>
         </li>
         <br />
@@ -81,13 +79,15 @@ const AboutSection = () => {
           alt="about image"
         />
         <div className="mt-8 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white text-center md:text-left mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white text-center md:text-left mb-4">
+            About Me
+          </h2>
           <p className="text-base lg:text-lg">
             I am a Master of Information Technology student from University of
             New South Wales. I have experience working with React, Javascript,
-            HTML, CSS, Python, Pytorch, C/C++, PostgreSQL and Git. I am a quick
-            learner and I am always looking forward to expand my knowledge and
-            skill sets.
+            TypeScript, HTML, CSS, Python, Pytorch, C/C++, PostgreSQL and Git. I
+            am a quick learner and I am always looking forward to expand my
+            knowledge and skill sets.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
